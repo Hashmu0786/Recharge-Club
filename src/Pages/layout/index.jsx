@@ -6,6 +6,8 @@ import Dashboard from "../dashboard/index.jsx";
 import BuyNumbers from "../BuyNumbers/index.jsx";
 import Recharge from "../Recharge/index.jsx";
 import ReferEarn from "../ReferEarn/index.jsx";
+import NumberHistory from "../NumberHistory/index.jsx";
+import TransactionHistory from "../TransactionHistory/index.jsx";
 
 export default function Layout() {
   // Use useMediaQuery hook to determine if the screen size is lg or larger
@@ -29,7 +31,9 @@ export default function Layout() {
           {/* <Dashboard /> */}
           {/* <BuyNumbers /> */}
           {/* <Recharge /> */}
-          <ReferEarn />
+          {/* <ReferEarn /> */}
+          {/* <NumberHistory /> */}
+          <TransactionHistory />
         </div>
       </div>
     </>
