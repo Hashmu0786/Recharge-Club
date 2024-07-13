@@ -25,7 +25,7 @@ export default function Summary() {
   return (
     <>
       <div className="mt-8 mr-3">
-        <div className=" rounded-lg font-roboto shadow-md rounded-lg text-gray-500 px-4 py-8">
+        <div className=" bg-white rounded-lg font-roboto shadow-md rounded-lg text-gray-500 px-4 py-8">
           <h1 className="text-black text-xl font-normal text-start">Summary</h1>
           {data.map((items, index) => (
             <div

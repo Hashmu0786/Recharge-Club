@@ -7,6 +7,7 @@ import Layout from "./Pages/layout/index.jsx";
 export default function App() {
   return (
     <>
+      {/* <div className="bg-gray-100 w-full h-screen"> */}
       <div>
         {/* <Signin /> */}
         {/* <SignUp /> */}

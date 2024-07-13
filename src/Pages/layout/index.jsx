@@ -4,6 +4,8 @@ import Navbar from "./Navbar";
 import Sidebar from "./Sidebar.jsx";
 import Dashboard from "../dashboard/index.jsx";
 import BuyNumbers from "../BuyNumbers/index.jsx";
+import Recharge from "../Recharge/index.jsx";
+import ReferEarn from "../ReferEarn/index.jsx";
 
 export default function Layout() {
   // Use useMediaQuery hook to determine if the screen size is lg or larger
@@ -22,9 +24,12 @@ export default function Layout() {
         <div>
           <Sidebar setShowSideBar={setShowSideBar} showsidebar={showsidebar} />
         </div>
+
         <div className="mt-24">
           {/* <Dashboard /> */}
-          <BuyNumbers />
+          {/* <BuyNumbers /> */}
+          {/* <Recharge /> */}
+          <ReferEarn />
         </div>
       </div>
     </>
