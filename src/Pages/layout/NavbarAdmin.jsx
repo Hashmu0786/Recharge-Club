@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function NavbarAdmin({ setShowSideBar }) {
   return (
     <>
-      <div className="w-full  top-0 fixed z-20 h-14 bg-indigo-900 text-white overflow-hidden">
+      <div className="w-full font-roboto top-0 fixed z-20 h-14 bg-indigo-900 text-white overflow-hidden">
         <div className="flex justify-between items-center ml-5 mt-2 md:ml-10">
           <div className="text-white ">
             <GiHamburgerMenu size={20} onClick={() => setShowSideBar(true)} />

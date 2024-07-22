@@ -10,6 +10,7 @@ import NumberHistory from "../NumberHistory/index.jsx";
 import TransactionHistory from "../TransactionHistory/index.jsx";
 import SidebarAdmin from "./SidebarAdmin.jsx";
 import NavbarAdmin from "./NavbarAdmin.jsx";
+import AdminDashboard from "../../Admin Pages/Dashboard/index.jsx";
 
 export default function Layout() {
   // Use useMediaQuery hook to determine if the screen size is lg or larger
@@ -49,6 +50,9 @@ export default function Layout() {
             setShowSideBar={setShowSideBar}
             showsidebar={showsidebar}
           />
+        </div>
+        <div>
+          <AdminDashboard />
         </div>
       </div>
     </>

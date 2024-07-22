@@ -24,7 +24,7 @@ export default function SidebarAdmin({ setShowSideBar, showsidebar }) {
   return (
     <>
       <div
-        className={`px-2 fixed z-50 h-full bg-indigo-900 overflow-auto text-sm transform transition-transform duration-300 ${
+        className={` font-roboto px-2 fixed top-0 z-50 h-full bg-indigo-900 overflow-auto text-sm transform transition-transform duration-300 ${
           showsidebar ? "translate-x-0" : "-translate-x-full"
         }`}
       >
