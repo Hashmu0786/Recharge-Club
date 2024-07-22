@@ -20,7 +20,7 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
     >
       {/* Header */}
       <div className="cursur-pointer flex flex-col justify-center gap-2 shadow-lg rounded-lg lg:mt-24">
-        <div className="block lg:hidden flex gap-4 items-center mt-2 3xl:m-5 2xl:gap-8 2xl:ml-4 3xl:gap-8">
+        <div className=" lg:hidden flex gap-4 items-center mt-2 3xl:m-5 2xl:gap-8 2xl:ml-4 3xl:gap-8">
           <div>
             <img
               src="https://cdn-icons-png.flaticon.com/512/8032/8032096.png"
@@ -32,7 +32,7 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
             <p className="text-xl font-medium 3xl:text-3xl">OTP TOWN</p>
           </div>
           <div
-            className="block lg:hidden flex items-center justify-center bg-gray-200 rounded-full h-18 w-18"
+            className=" lg:hidden flex items-center justify-center bg-gray-200 rounded-full h-18 w-18"
             onClick={() => setShowSideBar(false)}
           >
             <MdOutlineKeyboardDoubleArrowLeft className="h-8 w-8 3xl:h-14 3xl:w-14" />
@@ -43,13 +43,13 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
       {/* Menu items */}
       <div className=" cursur-pointer flex flex-col justify-center mx-2 gap-2 text-gray-600 mb-2 3xl:mb-4 3xl:mx-4">
         <div className="flex gap-4 hover:bg-gray-100 p-2 hover:rounded-lg items-center">
-          <MdDashboard className="hover:text-blue-400 h-5 w-5 md:h-6 md:w-6 lg:h-5 w-5 3xl:h-8 3xl:w-8" />
+          <MdDashboard className="hover:text-blue-400 h-5 md:h-6 md:w-6 lg:h-5 w-5 3xl:h-8 3xl:w-8" />
           <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
             Dashboard
           </p>
         </div>
         <div className="flex gap-4 hover:bg-gray-100 p-2 hover:rounded-l">
-          <MdDashboard className="h-5 w-5  md:h-6 md:w-6 hover:text-blue-500 lg:h-5 w-5 3xl:h-8 3xl:w-8" />
+          <MdDashboard className="h-5 w-5  md:h-6 md:w-6 hover:text-blue-500 lg:h-5 3xl:h-8 3xl:w-8" />
           <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
             Admin Dashboard
           </p>
@@ -63,19 +63,19 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
         </div>
         <div className="flex flex-col shadow-lg rounded-lg 3xl:gap-2">
           <div className="flex gap-2 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg">
-            <TiMessageTyping className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 w-5 3xl:h-10 3xl:w-10 3xl:mt-[-6px]" />
+            <TiMessageTyping className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 3xl:h-10 3xl:w-10 3xl:mt-[-6px]" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Buy Numbers
             </p>
           </div>
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg">
-            <TbRecharging className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <TbRecharging className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Recharge
             </p>
           </div>
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg mb-2 3xl:mb-4">
-            <VscReferences className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 w-5 3xl:h-8 3xl:w-8" />
+            <VscReferences className="hover:text-blue-400 h-5  md:h-6 md:w-6 lg:h-5 w-5 3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Refer & Earn
             </p>
@@ -90,13 +90,13 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
         </div>
         <div className="flex flex-col shadow-lg rounded-lg 3xl:gap-4">
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg">
-            <FaHistory className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <FaHistory className="hover:text-blue-400 h-5  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Number History
             </p>
           </div>
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg mb-2 3xl:mb-4">
-            <CgNotes className="hover:text-blue-400 h-5 w-5  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <CgNotes className="hover:text-blue-400 h-5  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Transaction History
             </p>
@@ -111,7 +111,7 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
         </div>
         <div className="flex flex-col shadow-lg rounded-lg">
           <div className="flex items-center gap-4 hover:bg-gray-100 p-2 hover:rounded-lg mb-2 3xl:mb-4 3xl:ml-2">
-            <GiCombinationLock className="hover:text-blue-400 h-5 w-5 md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <GiCombinationLock className="hover:text-blue-400 h-5 md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base  3xl:text-2xl">
               Api Tools
             </p>
@@ -126,13 +126,13 @@ export default function Sidebar({ setShowSideBar, showsidebar }) {
         </div>
         <div className="flex flex-col shadow-lg rounded-lg  3xl:gap-4">
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg">
-            <RiContactsFill className="hover:text-blue-400 h-4 w-4  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <RiContactsFill className="hover:text-blue-400 h-4 w-4  md:h-6 md:w-6 lg:h-5 lg:w-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base 3xl:text-2xl">
               Contact Us
             </p>
           </div>
           <div className="flex gap-4 mx-2 hover:bg-gray-100 p-2 hover:rounded-lg mb-14 lg:mb-4 3xl:mb-20">
-            <FaBoltLightning className="hover:text-blue-400 h-4 w-4  md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
+            <FaBoltLightning className="hover:text-blue-400 h-4   md:h-6 md:w-6 lg:h-5 w-5  3xl:h-8 3xl:w-8" />
             <p className="text-sm md:text-lg lg:text-base  3xl:text-2xl">
               Join Channel
             </p>

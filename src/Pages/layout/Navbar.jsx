@@ -92,11 +92,11 @@ export default function Navbar({ setShowSideBar }) {
           <p className="m-1 ml-0 font-medium md:text-base">16</p>
         </div>
         <div>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/2919/2919906.png"
-            alt="profile"
-            className="h-8 w-8 "
-          />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2919/2919906.png"
+              alt="profile"
+              className="h-8 w-8 "
+            />
         </div>
       </div>
     </div>

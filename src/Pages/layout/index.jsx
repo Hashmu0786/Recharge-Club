@@ -8,6 +8,8 @@ import Recharge from "../Recharge/index.jsx";
 import ReferEarn from "../ReferEarn/index.jsx";
 import NumberHistory from "../NumberHistory/index.jsx";
 import TransactionHistory from "../TransactionHistory/index.jsx";
+import SidebarAdmin from "./SidebarAdmin.jsx";
+import NavbarAdmin from "./NavbarAdmin.jsx";
 
 export default function Layout() {
   // Use useMediaQuery hook to determine if the screen size is lg or larger
@@ -21,19 +23,32 @@ export default function Layout() {
 
   return (
     <>
-      <div>
+      {/* user admin dashboard layout */}
+      {/* <div>
         <Navbar setShowSideBar={setShowSideBar} />
         <div>
           <Sidebar setShowSideBar={setShowSideBar} showsidebar={showsidebar} />
-        </div>
+        </div> */}
 
-        <div className="mt-24">
-          {/* <Dashboard /> */}
-          {/* <BuyNumbers /> */}
-          {/* <Recharge /> */}
-          {/* <ReferEarn /> */}
-          {/* <NumberHistory /> */}
-          <TransactionHistory />
+      {/* <div className="mt-24"> */}
+      {/* <Dashboard /> */}
+      {/* <BuyNumbers /> */}
+      {/* <Recharge /> */}
+      {/* <ReferEarn /> */}
+      {/* <NumberHistory /> */}
+      {/* <TransactionHistory /> */}
+      {/* </div> */}
+      {/* </div> */}
+
+      {/* super admin layout start from here */}
+
+      <div>
+        <NavbarAdmin setShowSideBar={setShowSideBar} />
+        <div>
+          <SidebarAdmin
+            setShowSideBar={setShowSideBar}
+            showsidebar={showsidebar}
+          />
         </div>
       </div>
     </>
